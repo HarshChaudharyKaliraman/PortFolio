@@ -8,8 +8,9 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #faf9f7; --bg2: #f2f0ec;
-      --ink: #1a1814; --ink2: #6b6760; --ink3: #a09d98;
+      --bg: #cdbd9e; 
+      --bg2: #f2f0ec;
+      --ink: #1a1814; --ink2: #000000; --ink3: #655d4e;
       --accent: #c8702a; --accent2: #e8956a;
       --line: #e4e1db; --card: #ffffff;
       --serif: 'DM Serif Display', Georgia, serif;
@@ -210,10 +211,10 @@
     <li><a href="#about">About</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#projects">Projects</a></li>
-    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#certifications">Certifications</a></li>
     <li><a href="#education">Education</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="Harsh_cv.pdf" download class="nav-cta">Resume ↓</a></li>
+    <li><a href="Harsh_cv.pdf" download class="nav-cta">Resume</a></li>
   </ul>
 </nav>
 
@@ -232,10 +233,13 @@
       </div>
     </div>
     <div class="hero-right">
-      <div class="hero-card fu">
-        <div class="hero-card-label">Currently studying at</div>
-        <div class="hero-card-value">LPU, Punjab</div>
-        <div class="hero-card-sub">B.Tech CSE · CGPA 7.03</div>
+      <div class="hero-card fu" style="display: flex; gap: 40%;">
+        <div class="hero-card-first" >
+          <div class="hero-card-label">Currently studying at</div>
+          <div class="hero-card-value">LPU, Punjab</div>
+          <div class="hero-card-sub">B.Tech CSE · CGPA 7.03</div>
+        </div>
+        <img src="lpu photo.jpg" width="100"/>
       </div>
       <div class="hero-card fu">
         <div class="hero-card-label">Tech Stack</div>
@@ -338,7 +342,8 @@
     <div class="sec-title">Things I've<br><em>Built</em></div>
     <div class="projects-grid">
       <div class="proj-card fu">
-        <div class="proj-num">01</div>
+        <!-- <div class="proj-num">01</div> -->
+         <img src="desk.png" width="auto" height="auto" style="border: 10px solid var(--bg); padding: 2px;"/>
         <div class="proj-date">Jan 2026 – Feb 2026</div>
         <div class="proj-title">Student Desk Recommender</div>
         <p class="proj-desc">A desk setup planner that recommends aesthetic and space-saving desk items based on user preferences like budget, desk size, and usage. Full MERN stack with backend filtering logic.</p>
@@ -346,7 +351,8 @@
         <a href="https://github.com/HarshChaudharyKaliraman/Desk-Planner" target="_blank" class="proj-link">Source Code →</a>
       </div>
       <div class="proj-card fu">
-        <div class="proj-num">02</div>
+        <!-- <div class="proj-num">02</div> -->
+         <img src="weather.png" width="auto" height="auto" style="border: 10px solid var(--bg); padding: 2px;"/>
         <div class="proj-date">Jun 2025 – Jul 2025</div>
         <div class="proj-title">Real-time Weather App</div>
         <p class="proj-desc">A web application providing real-time weather updates based on the user's geographical location. Integrates OpenWeather API to fetch and display live data dynamically and responsively.</p>
@@ -354,7 +360,8 @@
         <a href="https://github.com/HarshChaudharyKaliraman/Simple-Weather-App" target="_blank" class="proj-link">Source Code →</a>
       </div>
       <div class="proj-card fu">
-        <div class="proj-num">03</div>
+        <!-- <div class="proj-num">03</div> -->
+         <img src="habit.png" width="auto" height="auto" style="border: 10px solid var(--bg); padding: 2px;"/>
         <div class="proj-date">Jun 2025 – Jul 2025</div>
         <div class="proj-title">Habit Tracker App</div>
         <p class="proj-desc">A habit tracking application helping users build consistency by creating and maintaining daily habits with real-time progress visualization and streak tracking.</p>
